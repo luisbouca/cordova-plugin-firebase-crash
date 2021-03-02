@@ -27,8 +27,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <platform name="ios">
         <preference name="IOS_FIREBASE_CRASHLYTICS_VERSION" default="~> 7.0.0"/>
 
-        <hook type="before_plugin_install" src="hooks/ios/after_plugin_install.js" />
-        <hook type="before_plugin_uninstall" src="hooks/ios/before_plugin_uninstall.js" />
+        <!--<hook type="before_plugin_install" src="hooks/ios/after_plugin_install.js" />
+        <hook type="before_plugin_uninstall" src="hooks/ios/before_plugin_uninstall.js" />-->
 
         <hook type="after_plugin_install" src="hooks/crashlytics/ios/after_plugin_install.js" />
         <hook type="before_plugin_uninstall" src="hooks/crashlytics/ios/before_plugin_uninstall.js" />
