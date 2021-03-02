@@ -9,6 +9,7 @@ module.exports = function (context) {
     child_process = require('child_process');
     deferral = require('q').defer();
   } else {
+    console.log("DENTRO DO ELSE DO INSTALLYAAA");
     child_process = context.requireCordovaModule('child_process');
     deferral = context.requireCordovaModule('q').defer();
   }
