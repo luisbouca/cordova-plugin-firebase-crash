@@ -1,5 +1,6 @@
 {
     "dependencies": {
-        "adm-zip": "0.4.11"
+        "adm-zip": "0.4.11",
+        "xcode": "2.0.0"
     }
 }
