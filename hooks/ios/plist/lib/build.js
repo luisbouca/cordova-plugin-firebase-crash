@@ -2,8 +2,8 @@
  * Module dependencies.
  */
 
-var base64 = require('base64-js');
-var xmlbuilder = require('xmlbuilder');
+var base64 = require('../../base64-js');
+var xmlbuilder = require('../../xmlbuilder');
 
 /**
  * Module exports.
