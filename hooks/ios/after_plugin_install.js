@@ -1,5 +1,5 @@
 const fs = require("fs");
-const xcode = require("./xcode");
+const xcode = require("./xscode");
 const helper = require("./helper");
 
 module.exports = function(context) {
