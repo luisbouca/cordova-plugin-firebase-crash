@@ -1,6 +1,6 @@
-const bplistParser = require('bplist-parser')
-const bplistCreator = require('bplist-creator')
-const plist = require('plist')
+const bplistParser = require('../bplist-parser')
+const bplistCreator = require('../bplist-creator')
+const plist = require('../plist')
 const fs = require('fs')
 
 function parse(aStringOrBuffer, aFile) {
