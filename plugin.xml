@@ -16,7 +16,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <engine name="cordova-ios" version=">=5.1.1"/>
     </engines>
 
-    <dependency id="cordova-plugin-firebase-analytics" url="https://github.com/OutSystems/cordova-plugin-firebase-analytics.git#feature/add-xcode" commit="feature/add-xcode"/>
+    <dependency id="cordova-plugin-firebase-analytics" url="https://github.com/OutSystems/cordova-plugin-firebase-analytics.git#outsystems"/>
 
     <js-module src="www/FirebaseCrash.js" name="FirebaseCrash">
         <merges target="cordova.plugins.firebase.crashlytics" />
