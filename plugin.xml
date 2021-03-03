@@ -54,14 +54,19 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <header-file src="src/ios/FirebaseCrashPlugin.h" />
         <source-file src="src/ios/FirebaseCrashPlugin.m" />
 
-        <podspec>
+       <!-- <podspec>
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
                 <pod name="Firebase/Crashlytics" spec="$IOS_FIREBASE_CRASHLYTICS_VERSION" />
             </pods>
-        </podspec>
+        </podspec>-->
+
+        <resource-file src="GoogleService-Info.plist" target="./GoogleService-Info.plist" />
+
+        <framework src="Firebase/Crashlytics" type="podspec" spec="~> 7.0.0"/>
+
     </platform>
 
     <platform name="android">
