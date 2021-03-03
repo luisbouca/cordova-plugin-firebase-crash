@@ -3,7 +3,7 @@
 // adapted from http://code.google.com/p/plist/source/browse/trunk/src/com/dd/plist/BinaryPropertyListParser.java
 
 const fs = require('fs');
-const bigInt = require("big-integer");
+const bigInt = require("../big-integer");
 const debug = false;
 
 exports.maxObjectSize = 100 * 1000 * 1000; // 100Meg
