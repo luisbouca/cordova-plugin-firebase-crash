@@ -30,11 +30,11 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <platform name="ios">
         <preference name="IOS_FIREBASE_CRASHLYTICS_VERSION" default="~> 7.0.0"/>
 
-        <!--<hook type="after_plugin_install" src="hooks/ios/after_plugin_install.js" />
-        <hook type="before_plugin_uninstall" src="hooks/ios/before_plugin_uninstall.js" />-->
+        <hook type="after_plugin_install" src="hooks/ios/after_plugin_install.js" />
+        <hook type="before_plugin_uninstall" src="hooks/ios/before_plugin_uninstall.js" />
 
-        <hook type="after_plugin_install" src="hooks/crashlytics/ios/after_plugin_install.js" />
-        <hook type="before_plugin_uninstall" src="hooks/crashlytics/ios/before_plugin_uninstall.js" />
+        <!--<hook type="after_plugin_install" src="hooks/crashlytics/ios/after_plugin_install.js" />
+        <hook type="before_plugin_uninstall" src="hooks/crashlytics/ios/before_plugin_uninstall.js" />-->
 
         <config-file parent="/*" target="config.xml">
             <feature name="FirebaseCrash">
@@ -70,8 +70,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <platform name="android">
         <preference name="ANDROID_FIREBASE_CRASHLYTICS_VERSION" default="17.3.+"/>
 
-        <hook type="after_plugin_install" src="hooks/crashlytics/android/after_plugin_install.js" />
-        <hook type="before_plugin_uninstall" src="hooks/crashlytics/android/before_plugin_uninstall.js" />
+        <!--<hook type="after_plugin_install" src="hooks/crashlytics/android/after_plugin_install.js" />
+        <hook type="before_plugin_uninstall" src="hooks/crashlytics/android/before_plugin_uninstall.js" />-->
 
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="FirebaseCrash">
