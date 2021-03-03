@@ -19,13 +19,13 @@ var util = require('util'),
     f = util.format,
     EventEmitter = require('events').EventEmitter,
     path = require('path'),
-    uuid = require('./uuid'),
+    uuid = require('../../uuid'),
     fork = require('child_process').fork,
     pbxWriter = require('./pbxWriter'),
     pbxFile = require('./pbxFile'),
     fs = require('fs'),
     parser = require('./parser/pbxproj'),
-    plist = require('simple-plist'),
+    plist = require('../../simple-plist'),
     COMMENT_KEY = /_comment$/
 
 function pbxProject(filename) {
