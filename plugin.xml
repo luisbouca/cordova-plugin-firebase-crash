@@ -82,7 +82,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
         <framework src="com.google.firebase:firebase-crashlytics:$ANDROID_FIREBASE_CRASHLYTICS_VERSION" />
         <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
-        <framework src="build.gradle" custom="true" type="gradleReference" />
     </platform>
 
 </plugin>
