@@ -35,6 +35,5 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
-    "xcode": "2.0.0"
   }
 }
