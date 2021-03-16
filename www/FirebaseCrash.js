@@ -2,6 +2,11 @@ var exec = require("cordova/exec");
 var PLUGIN_NAME = "FirebaseCrash";
 
 module.exports = {
+    forceCrash: function(message) {
+        return new Promise(function(resolve, reject) {
+            exec(resolve, reject, PLUGIN_NAME, "forceCrash", []);
+        });
+    },
     log: function(message) {
         return new Promise(function(resolve, reject) {
             exec(resolve, reject, PLUGIN_NAME, "log", [message]);
