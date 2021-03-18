@@ -8,5 +8,7 @@ The changes documented here do not include those from the original repository.
 
 ## [Unreleased]
 
+## 2021-03-18
+- feature: added pipelines configuration (https://outsystemsrd.atlassian.net/browse/RMET-437)
 ## 2021-03-04
 - Fix: Fixed MABS builds for both versions of MABS and Sample App connecting to Firebase Project. (https://outsystemsrd.atlassian.net/browse/RMET-456)
