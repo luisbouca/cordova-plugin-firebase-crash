@@ -26,7 +26,12 @@ public class FirebaseCrashPlugin extends ReflectiveCordovaPlugin {
 
     @CordovaMethod(ExecutionThread.WORKER)
     private void forceCrash(CallbackContext callbackContext) {
-        Runtime.getRuntime().exit(1);
+            new Thread(){
+                @Override
+                public void run() {
+                    throw new RuntimeException("MyCrash");
+                }
+            }.start();
     }
 
     @CordovaMethod(ExecutionThread.WORKER)
