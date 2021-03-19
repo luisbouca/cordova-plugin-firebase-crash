@@ -6,7 +6,8 @@
     ],
     "testPipelineArgs": {
         "plugin": "firebase-crash",
-        "threads": "3"
+        "threads": "3",
+        "tags": "@FirebaseCrashlytics"
     },
     "sauceLabsInfo": {
         "FirebaseSampleApp": {
