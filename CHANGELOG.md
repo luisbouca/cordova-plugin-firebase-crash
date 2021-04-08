@@ -7,10 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 The changes documented here do not include those from the original repository.
 
 ## [Unreleased]
-
+## 2021-04-08
+- Chore: raise version 3.0.0-OS
+- Fix: Fixed Android MABS builds for Firebase Crashlytics being used with OneSignal (https://outsystemsrd.atlassian.net/browse/RMET-580)
 ## 2021-03-29
 - Fix: Fixed hook unzipAndCopyConfigurations
-
 ## 2021-03-19
 - Feature: Added method to crash app for both in Android and iOS. (https://outsystemsrd.atlassian.net/browse/RMET-434)
 
