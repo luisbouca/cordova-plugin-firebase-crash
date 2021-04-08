@@ -8,6 +8,9 @@ The changes documented here do not include those from the original repository.
 
 ## [Unreleased]
 
+## 2021-03-29
+- Fix: Fixed hook unzipAndCopyConfigurations
+
 ## 2021-03-19
 - Feature: Added method to crash app for both in Android and iOS. (https://outsystemsrd.atlassian.net/browse/RMET-434)
 
