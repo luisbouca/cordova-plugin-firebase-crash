@@ -8,6 +8,9 @@ The changes documented here do not include those from the original repository.
 
 ## [Unreleased]
 
+## 2021-07-13
+- Migrating package upload to newer Saucelabs API [RMET-761](https://outsystemsrd.atlassian.net/browse/RMET-761)
+
 ## 2021-05-05
 - Fix: Fixed plugin pipeline information in configurations.json (https://outsystemsrd.atlassian.net/browse/RMET-720)
 
