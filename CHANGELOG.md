@@ -8,6 +8,8 @@ The changes documented here do not include those from the original repository.
 
 ## [Unreleased]
 
+## [3.0.0-OS1]
+
 ## 2021-07-22
 - Updated dependency to analytcics plugin (since analytics changed to include the Firebase Core plugin) [RMET-904](https://outsystemsrd.atlassian.net/browse/RMET-904)
 
