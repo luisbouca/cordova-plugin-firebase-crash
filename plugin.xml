@@ -51,12 +51,16 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <header-file src="src/ios/FirebaseCrashPlugin.h" />
         <source-file src="src/ios/FirebaseCrashPlugin.m" />
 
-        <framework src="Firebase/Crashlytics" type="podspec" spec="~> 8.6.0"/>
-
+        <podspec>
+            <pods>
+                <pod name="Firebase/Crashlytics" spec="~> 8.6.0" />
+            </pods>
+        </podspec>
+        
     </platform>
 
     <platform name="android">
-        <preference name="ANDROID_FIREBASE_CRASHLYTICS_VERSION" default="17.3.+"/>
+        <preference name="ANDROID_FIREBASE_CRASHLYTICS_VERSION" default="18.2.+"/>
 
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="FirebaseCrash">
