@@ -52,7 +52,7 @@
   "dependencies": {
     "base64-js": "^1.2.3",
     "xmlbuilder": "^9.0.7",
-    "xmldom": "0.1.x"
+    "xmldom": "0.6.0"
   },
   "deprecated": false,
   "description": "Mac OS X Plist parser/builder for Node.js and browsers",
