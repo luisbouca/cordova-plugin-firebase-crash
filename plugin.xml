@@ -65,6 +65,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <platform name="android">
         <preference name="ANDROID_FIREBASE_CRASHLYTICS_VERSION" default="18.2.+"/>
 
+        <hook type="before_plugin_install" src="hooks/android/build_gradle_add_dependency.js" />
+        
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="FirebaseCrash">
                 <param name="android-package" value="by.chemerisuk.cordova.firebase.FirebaseCrashPlugin" />
