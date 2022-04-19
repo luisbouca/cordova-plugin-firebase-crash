@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
+## [3.0.0-OS3]
+## 2022-04-19
+- Hook to add google services dependency to build.gradle. [RMET-1497](https://outsystemsrd.atlassian.net/browse/RMET-1497)
+
+## 2021-11-05
+- New plugin release to include metadata tag setting compatibility with MABS versions
+
 ## [3.0.0-OS2]
 
 ## 2021-11-05
