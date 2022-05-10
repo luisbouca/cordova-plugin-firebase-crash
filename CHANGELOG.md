@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
+## [Unreleased]
+
+## [3.0.0-OS4]
+## 2022-05-10
+- Updated dependency to analytics plugin [RMET-1547](https://outsystemsrd.atlassian.net/browse/RMET-1547)
+
 ## [3.0.0-OS3]
 ## 2022-04-19
 - Hook to add google services dependency to build.gradle. [RMET-1497](https://outsystemsrd.atlassian.net/browse/RMET-1497)
