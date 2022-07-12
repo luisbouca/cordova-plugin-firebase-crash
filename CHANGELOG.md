@@ -8,6 +8,8 @@ The changes documented here do not include those from the original repository.
 
 ## [Unreleased]
 
+## [3.0.0-OS6]
+
 ## 2022-07-12
 - Firebase Analytics dependency tag updated  [RMET-1715](https://outsystemsrd.atlassian.net/browse/RMET-1715)
 
