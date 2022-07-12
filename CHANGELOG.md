@@ -8,6 +8,9 @@ The changes documented here do not include those from the original repository.
 
 ## [Unreleased]
 
+## 2022-07-12
+- Firebase Analytics dependency tag updated  [RMET-1715](https://outsystemsrd.atlassian.net/browse/RMET-1715)
+
 ## 2022-07-1
 - Avoid crash with try catch [RMET-1538](https://outsystemsrd.atlassian.net/browse/RMET-1691)
 
