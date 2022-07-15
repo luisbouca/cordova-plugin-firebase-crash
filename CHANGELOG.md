@@ -8,6 +8,9 @@ The changes documented here do not include those from the original repository.
 
 ## [Unreleased]
 
+## 2022-07-14
+- Remove dependency to Firebase Analytics  [RMET-1715](https://outsystemsrd.atlassian.net/browse/RMET-1717)
+
 ## [3.0.0-OS6]
 
 ## 2022-07-12
